@@ -1,2 +1,2 @@
 # ShellCheck configuration file syntax
-.shellcheckrc linguist-language=Shell
+.shellcheckrc.* linguist-language=Shell
