@@ -122,7 +122,7 @@ You are an expert at ShellCheck, the shell script static analysis tool. This doc
 
 #### Globbing Issues
 
-- SC2035: Use ./*instead of* to avoid issues with filenames starting with `-`
+- SC2035: Use `./*` instead of `*` to avoid issues with filenames starting with `-`
 - SC2144: Glob in conditionals may not work as expected
 - Understand glob expansion timing
 
