@@ -1,0 +1,29 @@
+# ShellCheck configuration for BusyBox sh
+# See: https://github.com/koalaman/shellcheck/wiki/Directive
+#
+# BusyBox sh is a minimal shell implementation commonly used in embedded systems,
+# containers, and resource-constrained environments (Alpine Linux, Docker, etc.).
+# It's POSIX-like but with some limitations and quirks.
+# Use this for scripts targeting embedded systems or minimal container images.
+
+# Use busybox dialect
+shell=busybox
+
+# Enable all optional checks
+enable=all
+
+# Follow external sources (enable for projects with sourced files)
+external-sources=true
+
+# Source path resolution
+source-path=SCRIPTDIR
+
+# Set severity threshold (error, warning, info, style)
+severity=style
+
+# Note: Use -S/--severity flag on command line to filter by severity level
+# severity levels: error, warning, info, style
+
+# Disable specific checks if needed (uncomment to use)
+# disable=SC2034  # Unused variables
+# disable=SC2086  # Double quote to prevent globbing and word splitting
