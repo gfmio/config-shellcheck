@@ -1,7 +1,12 @@
-# ShellCheck configuration
+# ShellCheck configuration for bash
 # See: https://github.com/koalaman/shellcheck/wiki/Directive
+#
+# bash is the most common shell for Linux systems and provides many features
+# beyond POSIX sh including arrays, associative arrays, process substitution,
+# extended test constructs [[]], and more.
+# Use this for scripts targeting bash environments (most Linux distributions).
 
-# Use bash dialect by default
+# Use bash dialect
 shell=bash
 
 # Enable all optional checks
