@@ -1,5 +1,5 @@
 {
   "files.associations": {
-    ".shellcheckrc": "shellscript"
+    ".shellcheckrc.*": "shellscript"
   }
 }
